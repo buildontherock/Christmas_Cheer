@@ -27,7 +27,5 @@
         android:id="@+id/imageView"
         android:src="@drawable/big_tree"
         android:layout_below="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
