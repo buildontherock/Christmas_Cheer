@@ -18,7 +18,7 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.christmas_layout);
         blinkText();
-
+        
         christmasSong = MediaPlayer.create(MyActivity.this, R.raw.joy_to_the_world);
         christmasSong.start();
 
